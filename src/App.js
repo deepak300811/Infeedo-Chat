@@ -16,7 +16,6 @@ function App() {
           {
             message: temp.message,
             sentByUser: false,
-            time: new Date(),
           },
         ]);
       }

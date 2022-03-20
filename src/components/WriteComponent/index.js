@@ -7,7 +7,6 @@ const WriteComponent = ({ setMessagesArray, messagesArray }) => {
     if (message.trim().length > 0) {
       const temp = {
         message: message,
-        time: new Date(),
         sentByUser: true,
       };
       setMessagesArray([...messagesArray, temp]);

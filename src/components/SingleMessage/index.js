@@ -7,9 +7,6 @@ const SingleMessage = ({ message, time, sentByUser }) => {
       <div className={`message ${sentByUser ? "user" : "robot"}`}>
         <p>{message}</p>
       </div>
-      {/* <p className={`time ${sentByUser ? "usertime" : "robottime"}`}>
-        {time.toLocaleString()}
-      </p> */}
     </>
   );
 };
