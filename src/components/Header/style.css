@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.user-header {
+  width: 50%;
+  padding: 1rem;
+  background: #d5d5d5;
+  color: #575757;
+}
+.bot-header {
+  width: 50%;
+  padding: 1rem;
+  background: #4c7dfe;
+  color: #fff;
+}
+.icon {
+  height: 1.5rem;
+  width: auto;
+  margin-right: 0.4rem;
+  border-radius: 50%;
+}

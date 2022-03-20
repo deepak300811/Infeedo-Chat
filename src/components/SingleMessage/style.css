@@ -1,0 +1,24 @@
+.message {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+.message.user {
+  background: #d5d5d5;
+  color: #575757;
+}
+.message.robot {
+  background: #4c7dfe;
+  color: #fff;
+}
+.time {
+  color: #7e7e7e;
+}
+.usertime {
+  padding-left: 0.5rem;
+  text-align: start;
+}
+.robottime {
+  text-align: end;
+  padding-right: 0.5rem;
+}

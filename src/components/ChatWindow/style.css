@@ -1,0 +1,18 @@
+.chat-divison {
+  height: 90%;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 1.5rem 0rem 1.5rem;
+}
+.message-container {
+  margin-bottom: 1.5rem;
+  width: fit-content;
+  max-width: 85%;
+}
+.message-container.robot {
+  align-self: flex-end;
+}
+.message-container.user {
+  align-self: flex-start;
+}
